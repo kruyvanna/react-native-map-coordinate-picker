@@ -1,9 +1,12 @@
 import MapView, { LatLng, Region } from 'react-native-maps';
 import React, { useState } from 'react';
 
+// @ts-ignore
 import { FakeMarker } from 'react-native-map-coordinate-picker';
-import markerIcon from './custom_marker.png';
+// @ts-ignore
 import styled from 'styled-components/native';
+
+const markerIcon = require('./custom_marker.png');
 
 const Container = styled.View`
   flex: 1;

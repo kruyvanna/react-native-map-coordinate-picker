@@ -48,6 +48,7 @@ export const FakeMarker = (props: FakeMarkerProps) => {
       friction: 3,
       useNativeDriver: true,
     }).start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dragging]);
 
   return (
