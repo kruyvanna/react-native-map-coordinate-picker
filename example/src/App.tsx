@@ -2,6 +2,7 @@ import MapView, { LatLng, Region } from 'react-native-maps';
 import React, { useState } from 'react';
 
 import { FakeMarker } from 'react-native-coordinate-picker';
+import markerIcon from './custom_marker.png';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
@@ -56,7 +57,7 @@ export default function App() {
           longitudeDelta: 0.0121001,
         }}
       ></StyledMapView>
-      <FakeMarker dragging={dragging}></FakeMarker>
+      <FakeMarker dragging={dragging} icon={markerIcon}></FakeMarker>
       <InfoBox>
         <Text>Picked coordinate</Text>
         {pickedLocation && (

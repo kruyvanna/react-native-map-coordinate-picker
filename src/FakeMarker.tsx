@@ -1,6 +1,7 @@
+import { Animated, ImageSourcePropType } from 'react-native';
 import React, { useEffect } from 'react';
 
-import { Animated } from 'react-native';
+import { Image } from 'react-native';
 import marker from './marker_icon.png';
 import styled from 'styled-components/native';
 
@@ -33,10 +34,11 @@ const MarkerImage = styled.Image`
 
 interface FakeMarkerProps {
   dragging: boolean;
+  icon?: ImageSourcePropType;
 }
 
 export const FakeMarker = (props: FakeMarkerProps) => {
-  const { dragging } = props;
+  const { dragging, icon } = props;
   const animatedValue = new Animated.Value(0.01);
 
   useEffect(() => {
@@ -73,7 +75,7 @@ export const FakeMarker = (props: FakeMarkerProps) => {
           ],
         }}
       >
-        <MarkerImage source={marker}></MarkerImage>
+        <MarkerImage source={icon || marker}></MarkerImage>
       </MarkerBox>
     </Container>
   );
