@@ -93,7 +93,7 @@ export default function App() {
 
 ## Props
 
-dragging: string (required) // when true, the marker is pushed up with animation
+dragging: boolean (required) // when true, the marker is pushed up with animation
 
 icon: ImageSourcePropType (optional) // custom marker icon
 
