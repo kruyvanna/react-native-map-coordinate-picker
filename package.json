@@ -34,7 +34,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "map",
+    "picker",
+    "marker"
   ],
   "repository": "https://github.com/kruyvanna/react-native-map-coordinate-picker",
   "author": "Kruy Vanna <kruyvanna@gmail.com> (https://github.com/kruyvanna)",
