@@ -76,7 +76,7 @@ export default function App() {
         onRegionChangeComplete={handleRegionChange}
         onPanDrag={handleOnPanDrag}
       ></StyledMapView>
-      <FakeMarker dragging={dragging} icon={markerIcon}></FakeMarker>
+      <FakeMarker dragging={dragging}></FakeMarker>
       <InfoBox>
         <Text>Picked coordinate</Text>
         {pickedLocation && (
