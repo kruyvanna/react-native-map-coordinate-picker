@@ -2,6 +2,8 @@
 
 An animated marker component used for map coordinate picking
 
+![Preview](https://raw.githubusercontent.com/kruyvanna/react-native-map-coordinate-picker/master/preview.gif 'Preview')
+
 ## Installation
 
 ```sh
