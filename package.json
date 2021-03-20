@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-coordinate-picker.podspec",
+    "react-native-map-coordinate-picker.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/kruyvanna/react-native-coordinate-picker",
+  "repository": "https://github.com/kruyvanna/react-native-map-coordinate-picker",
   "author": "Kruy Vanna <kruyvanna@gmail.com> (https://github.com/kruyvanna)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kruyvanna/react-native-coordinate-picker/issues"
+    "url": "https://github.com/kruyvanna/react-native-map-coordinate-picker/issues"
   },
-  "homepage": "https://github.com/kruyvanna/react-native-coordinate-picker#readme",
+  "homepage": "https://github.com/kruyvanna/react-native-map-coordinate-picker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -70,7 +70,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5"
   },
   "jest": {
     "preset": "react-native",
