@@ -1,7 +1,7 @@
 import MapView, { LatLng, Region } from 'react-native-maps';
 import React, { useState } from 'react';
 
-import { FakeMarker } from 'react-native-coordinate-picker';
+import { FakeMarker } from 'react-native-map-coordinate-picker';
 import markerIcon from './custom_marker.png';
 import styled from 'styled-components/native';
 
