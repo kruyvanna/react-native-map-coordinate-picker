@@ -1,0 +1,22 @@
+{
+  "name": "react-native-coordinate-picker-example",
+  "displayName": "CoordinatePicker Example",
+  "expo": {
+    "name": "react-native-coordinate-picker-example",
+    "slug": "react-native-coordinate-picker-example",
+    "description": "Example app for react-native-coordinate-picker",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
