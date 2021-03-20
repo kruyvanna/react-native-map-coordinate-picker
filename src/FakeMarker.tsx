@@ -1,9 +1,10 @@
 import { Animated, ImageSourcePropType } from 'react-native';
 import React, { useEffect } from 'react';
 
-import { Image } from 'react-native';
-import marker from './marker_icon.png';
+// @ts-ignore
 import styled from 'styled-components/native';
+
+const marker = require('./marker_icon.png');
 
 const Container = styled.View`
   left: 50%;
