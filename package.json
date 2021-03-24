@@ -1,6 +1,6 @@
 {
   "name": "react-native-map-coordinate-picker",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An animated marker component used for map coordinate picking",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
